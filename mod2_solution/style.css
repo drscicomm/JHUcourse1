@@ -144,10 +144,8 @@ section {
         width:48%;
         box-sizing: border-box;
         float: left;
-        border: 10px solid white;
     }
-    #s3{
-        width: 97%;        
+           
     }
 }
 
