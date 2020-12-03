@@ -1,4 +1,140 @@
-h1{color: red;
-font-size: 100px;
-text-align: center;
+* {
+  box-sizing: border-box;
+  font-family: roboto;
+}
+h1 {
+  margin-bottom: 15px;
+  text-align: center;
+  padding-bottom: 100px;
+  padding-top: 25px;
+}
+
+section {
+  background-color: white;
+  width: 90%;
+  height: auto;
+  margin-right: auto;
+  margin-left: auto;
+  color: white;
+  padding-left: 5px;
+}
+
+#section1 {
+	background-color: red;
+	height: 300px;
+}
+
+#chicken {
+	background-color: black;
+	width: 25%;
+	text-align: center;
+	padding-right: 10px;
+	padding-left: 10px;
+	padding-top: 7px;
+	padding-bottom: 7px;
+	float: right;
+	
+}
+
+#p1 {
+	padding-top: 50px;
+	padding-left: 20px;
+}
+
+#section2 {
+	background-color: grey;
+	height: 300px;
+}
+
+#beef {
+	background-color: yellow;
+	color: black;
+	float: right;
+	width: 25%;
+	text-align: center;
+	padding-right: 10px;
+	padding-left: 10px;
+	padding-top: 7px;
+	padding-bottom: 7px;
+}
+
+#p2 {
+	padding-top: 50px;
+	padding-left: 20px;
+}
+
+#section3 {
+	background-color: blue;
+	height: 300px;
+	padding: none;
+}
+
+#sushi {
+	background-color: grey;
+	color: white;
+	float: right;
+	width: 25%;
+	text-align: center;
+	padding-right: 10px;
+	padding-left: 10px;
+	padding-top: 7px;
+	padding-bottom: 7px;
+}
+
+#p3 {
+	padding-top: 50px;
+	color: white;
+	padding-left: 20px;
+}
+
+/* Simple Responsive Framework. */
+.row {
+  width: 100%;
+}
+
+
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+  .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
+    float: left;
+    border: 10px solid white;
+
+  }
+  .col-lg-1 {
+    width: 8.33%;
+  }
+  .col-lg-2 {
+    width: 16.66%;
+  }
+  .col-lg-3 {
+    width: 25%;
+  }
+  .col-lg-4 {
+    width: 33.33%;
+  }
+  .col-lg-5 {
+    width: 41.66%;
+  }
+  .col-lg-6 {
+    width: 50%;
+  }
+  .col-lg-7 {
+    width: 58.33%;
+  }
+  .col-lg-8 {
+    width: 66.66%;
+  }
+  .col-lg-9 {
+    width: 74.99%;
+  }
+  .col-lg-10 {
+    width: 83.33%;
+  }
+  .col-lg-11 {
+    width: 91.66%;
+  }
+  .col-lg-12 {
+    width: 100%;
+  }
 }
